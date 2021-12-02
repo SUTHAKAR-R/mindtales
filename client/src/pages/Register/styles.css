@@ -1,0 +1,69 @@
+.register {
+	height: calc(100vh - 50px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  	background-size: cover;
+}
+
+.register span {
+	font-size: 50px;
+}
+
+.register form {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.register form label {
+	margin: 10px 0;
+}
+
+.register form input {
+	background-color: white;
+	border: none;
+	padding: 10px;
+	outline: none;
+	border-radius: 8px;
+}
+
+.register form .error {
+	border: 1px solid red;
+	background: rgb(255,240,240);
+}
+
+small {
+	margin-top: 2px; 
+	margin-left: 5px;
+	color: red;
+}
+
+.register-button {
+	margin-top: 20px;
+	padding: 10px;
+	border: none;
+	border-radius: 8px;
+	color: white;
+	background-color: teal;
+	cursor: pointer;
+}
+
+.register .login-button {
+	position: absolute;
+	top: 60px;
+	right: 20px;
+	margin-top: 20px;
+	padding: 10px;
+	border: none;
+	border-radius: 8px;
+	color: white;
+	background-color: lightcoral;
+	cursor: pointer;
+}

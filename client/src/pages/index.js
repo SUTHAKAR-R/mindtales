@@ -1,0 +1,7 @@
+export { default as Home } from './Home'
+export { default as View } from './View'
+export { default as Write } from './Write'
+export { default as Edit } from './Edit'
+export { default as Profile } from './Profile'
+export { default as Login } from './Login'
+export { default as Register } from './Register'
